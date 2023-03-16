@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 montants_par_gare = {}
 
 # Ouvrir le fichier contenant les données et lire chaque ligne
-with open("C:\\Users\\bmanaa\\Documents\\GitHub\\HadoopSoutenance\\result.txt") as fichier:
+with open("C:\\Users\\bmanaa\\Documents\\GitHub\\HadoopSoutenance\\file\\result.txt") as fichier:
     for ligne in fichier:
         # Séparer chaque valeur de la ligne
         valeurs = ligne.split(",")
@@ -31,8 +31,8 @@ for gare in gares:
 fig, ax = plt.subplots()
 ax.barh(noms, montants)
 ax.invert_yaxis()  # Inverser l'ordre des gares pour que les plus grandes soient en haut
-ax.set_xlabel("Montants")
+ax.set_xlabel("Voyageurs")
 ax.set_ylabel("Gares")
-ax.set_title("Nombre de montants par nom_gare")
+ax.set_title("Nombre de voyageurs par gare")
 
 plt.show()

@@ -29,9 +29,9 @@ annees.sort()
 plt.plot(annees, [montants_par_annee[a] for a in annees])
 
 # On ajoute un titre et des labels d'axe
-plt.title('Nombre de montants par année')
+plt.title('Nombre de voyageurs par année')
 plt.xlabel('Année')
-plt.ylabel('Montants')
+plt.ylabel('Voyageurs')
 
 # On affiche le graphique
 plt.show()

@@ -19,5 +19,5 @@ with open('result.txt', 'r') as file:
 labels = list(data.keys())
 values = list(data.values())
 plt.pie(values, labels=labels, autopct='%1.1f%%')
-plt.title('Nombre de montants par tranche horaire')
+plt.title('Nombre de voyageurs par tranche horaire')
 plt.show()
