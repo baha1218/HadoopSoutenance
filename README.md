@@ -2,7 +2,7 @@
 
 # Soutenance Hadoop
 
-Dans cette documentation vous trouverez la pour monter maquette que je présenterais lors de ma soutenance.
+Dans cette documentation vous trouverez la procedure pour monter la maquette que je présenterais lors de ma soutenance.
 
 
 
