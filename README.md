@@ -36,10 +36,10 @@ Poussez les données dans votre cluster
 ```bash
 hadoop fs -put sncf.csv
 ```
-Créer un fichier [sncf.py](https://github.com/baha1218/HadoopSoutenance/blob/main/file/sncf.py) et executez le.
+Créer un fichier [mapreduce.py](https://github.com/baha1218/HadoopSoutenance/blob/main/file/mapreduce.py) et executez le.
 ```bash
-nano test_spark.py
-python3 test_spark.py
+nano mapreduce.py
+python3 mapreduce.py
 ```
 
 Affichez les données géneré dans le cluster
@@ -52,7 +52,7 @@ Copiez l'output et créez un fichier [result.txt](https://github.com/baha1218/Ha
 
 ### Windows 
 
-Nous ne pouvons pas visualiser ces données sans interface graphique donc j'ai transféré mon fichier [result.txt](https://github.com/baha1218/HadoopSoutenance/blob/main/file/result.txt) sur mon windows avec python d'installer. Un fichier [sncf.py](https://github.com/baha1218/HadoopSoutenance/blob/main/file/sncf.py) doit aussi etre créer dans le meme repertoire que vos 3 scripts pour graphique ([graphe1.py](https://github.com/baha1218/HadocopSoutenance/blob/main/file/graphe1.py), [graphe2.py](https://github.com/baha1218/HadocopSoutenance/blob/main/file/graphe2.py), [graphe3.py](https://github.com/baha1218/HadocopSoutenance/blob/main/file/graphe3.py)).
+Nous ne pouvons pas visualiser ces données sans interface graphique donc j'ai transféré mon fichier [result.txt](https://github.com/baha1218/HadoopSoutenance/blob/main/file/result.txt) sur mon windows avec python d'installer. Ce fichier doit etre déposer dans le meme repertoire que vos 3 scripts pour graphique ([graphe1.py](https://github.com/baha1218/HadocopSoutenance/blob/main/file/graphe1.py), [graphe2.py](https://github.com/baha1218/HadocopSoutenance/blob/main/file/graphe2.py), [graphe3.py](https://github.com/baha1218/HadocopSoutenance/blob/main/file/graphe3.py)).
 
 Rendez vous avec le `cmd` dans l'emplacement où se trouve vos fichiers.
 Vous devez avoir installer Python sur windows. N'oubliez pas d'installer matplotlib.
